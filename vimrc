@@ -52,6 +52,13 @@ inoremap jk <esc>
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
+" Fast window switching, from https://github.com/jdhao/minimal_vim/blob/master/minimal_vimrc
+" https://stackoverflow.com/a/4373470/6064933
+nnoremap <silent> <M-left> <C-w>h
+nnoremap <silent> <M-right> <C-w>l
+nnoremap <silent> <M-down> <C-w>j
+nnoremap <silent> <M-up> <C-w>k
+
 " ----- Abbreviations -------------
 
 "Classical
