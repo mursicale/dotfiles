@@ -2,6 +2,7 @@
 
 zstyle ':completion:*' completer _complete _ignored
 zstyle ':completion:*' max-errors 5 numeric
+zstyle ':completion:*' matcher-list'm:{a-zA-Z}={A-Za-z}'
 zstyle :compinstall filename '/home/mark/.zshrc'
 
 autoload -Uz compinit
