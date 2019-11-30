@@ -33,7 +33,9 @@ set statusline=%f\ -\%y\ %4l/%-4L
 augroup markdown
 autocmd!
 autocmd FileType markdown set spell
+autocmd FileType markdown set nocindent
 augroup END
+
 
 " ---- Key Mappings -------
 
