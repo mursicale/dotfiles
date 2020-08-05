@@ -3,6 +3,14 @@
 set nocompatible
 
 
+" ---- Plugins -----------
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'urbit/hoon.vim'
+
+call plug#end()
+
 " Basic settings
 
 set number
@@ -27,6 +35,7 @@ set visualbell
 set gcr=a:blinkon0
 
 set statusline=%f\ -\%y\ %4l/%-4L
+
 
 " ---- FileTypes ---------
 
