@@ -70,19 +70,3 @@ nnoremap <silent> <M-right> <C-w>l
 nnoremap <silent> <M-down> <C-w>j
 nnoremap <silent> <M-up> <C-w>k
 
-" ----- Abbreviations -------------
-
-"Classical
-iabbrev arle Aristotle
-iabbrev afns Aristophanes
-iabbrev pto Plato
-iabbrev tmkl Themistocles
-iabbrev thuc Thucycides
-iabbrev skts Socrates
-
-"Philosophical
-
-"Theological
-iabbrev jscs Jesus Christ
-iabbrev thtk Theotokos
-
