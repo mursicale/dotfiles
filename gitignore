@@ -1,0 +1,12 @@
+.tags
+.etags
+tags
+TAGS
+GPATH
+GRTAGS
+GTAGS
+.DS_Store
+*.swp
+*.swo
+\#*\#
+s/*
