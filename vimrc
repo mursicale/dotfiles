@@ -8,6 +8,7 @@ set nocompatible
 call plug#begin('~/.vim/plugged')
 
 Plug 'urbit/hoon.vim'
+Plug 'tidalcycles/vim-tidal'
 
 call plug#end()
 
